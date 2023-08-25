@@ -38,6 +38,6 @@ function Watch(videoSrc, video) {
   }
 }
 
-watchBtn.addEventListener("click", ev => {
-    console.log(stream_id.value)
-})
+watchBtn.addEventListener("click", (ev) => {
+  Watch(`/hls/${stream_id.value}.m3u8`, video);
+});
