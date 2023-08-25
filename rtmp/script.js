@@ -39,5 +39,5 @@ function Watch(videoSrc, video) {
 }
 
 watchBtn.addEventListener("click", ev => {
-    
+    console.log(stream_id.value)
 })
